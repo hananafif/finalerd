@@ -1,0 +1,170 @@
+.home {
+    background: #33d0ec; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#33d0ec, #4d7cde); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#33d0ec, #4d7cde); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#33d0ec, #4d7cde); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#33d0ec, #4d7cde); /* Standard syntax (must be last) */
+}
+
+.trans{
+	background-color: transparent;
+}
+
+.tombol{
+	height: 45px !important;
+	width: 99% !important;
+	border-radius: 30px;
+	background-color: #6fbbec;
+	box-shadow: 0 1px 3px rgba(0,0,0,.12);
+}
+
+#erd{
+	color: white;
+	font-size: 90px;
+	text-align: center;
+	height: 75px;
+	margin-top: 80px;
+}
+
+.erd2{
+	color: white;
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+
+.tombol2{
+	background-color: transparent;
+	color: black;
+}
+
+.materi{
+	height: 70px;
+	border-radius: 5px;
+}
+
+.materi1{
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+.tombol3{
+	background-color: transparent;
+	color: white;
+	box-shadow: none;
+}
+
+.tombol-materi-back{
+	background-color: transparent;
+	color: white;
+	box-shadow: none;
+	width: 20%;
+	float: left;
+}
+
+.tombol-materi-search{
+	background-color: transparent;
+	color: white;
+	box-shadow: none;
+	width: 20%;
+	float: right;
+}
+
+.judul{
+	color:black;
+	text-align: center;
+}
+
+.about{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+
+.gtentang{
+	width: 120px;
+	height: 80px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.tentang{
+	font-size: 15px;
+	text-align: center;
+	color: white;
+}
+
+.ts{
+	width: 50px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.nomor{
+	font-size: 14px;
+	margin-left: 50px;
+	color: white;
+}
+
+.tabel{
+ 	width: 80%;
+ 	margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.th{
+	height: 50px;
+	text-align: left;
+}
+
+.td{
+	height: 30px;
+	text-align: left;
+}
+
+.td2{
+	height: 30px;
+	text-align: center;
+}
+
+.radio{
+	color: white;
+	font-size: 15px;
+}
+
+.radio-value{
+	color: white;
+	font-size: 12px;
+}
+
+.nav-button-left{
+	box-shadow: none;
+	background-color: transparent;
+	width: 30%;
+	float: left;
+}
+
+.nav-button-right{
+	box-shadow: none;
+	background-color: transparent;
+	width: 30%;
+	float: left;
+}
+
+.num-page{
+	color: white;
+	text-align: center;
+	margin-top: 9px;
+	font-size: 20px;
+	width: 37%;
+	float: left;
+}
+
+#navigation{
+	margin-top: 25%;
+}
+
+.label{
+	box-shadow: 10px;
+}

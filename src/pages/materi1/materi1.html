@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+        <div class="judul">{{ babTitle }}</div>
+  </ion-navbar>
+</ion-header>
+<ion-content class="home" padding>
+  <ion-card class="label" *ngFor="let babContent of babContents">
+  <ion-card-header>
+  </ion-card-header>
+  <ion-card-content ng-bind-html>
+  <b>{{ babContent.title }}</b>
+        
+  <div [innerHtml] = "babContent.content"></div>
+  </ion-card-content>
+ </ion-card>
+ </ion-content>

@@ -1,0 +1,14 @@
+<ion-content class="home" padding>
+  <button class="tombol3" (click)="this.navCtrl.pop()" ion-button><ion-icon name="md-arrow-back"></ion-icon></button>
+  <br>
+  <h2 class="erd2 materi1">Materi</h2>
+	<ion-grid>
+  <ion-row>
+    <ion-col col-12 col-sm *ngFor="let bab of babs">
+      <button ion-button full (click)="materi1(bab.id,bab.title)" class="materi">
+        <p>{{ bab.title }}</p>
+      </button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+</ion-content>
